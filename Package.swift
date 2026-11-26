@@ -16,8 +16,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/hyperbidsdk-packages/HyperbidToolsMCSDK_SPM.git", from: "4.2.11"),
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.6.0")
+        .package(url: "https://github.com/hyperbidsdk-packages/HyperbidToolsMCSDK_SPM.git", from: "4.2.12"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.7.0")
     ],
     targets: [
         .target(
@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "HyperbidToolsMCMaxAdapterBinary",
-            url: "https://topon-sdk-release.oss-cn-hangzhou.aliyuncs.com/MCSDK/iOS/v4.2.11/overseas/sdks/MCSDKMaxAdapter-13.6.0.3.zip",
-            checksum: "9a407806646bec3852bbcecf9cbf917f59eba5c933e5d4277936acbebbc0c576"
+            url: "https://topon-sdk-release.oss-cn-hangzhou.aliyuncs.com/MCSDK/iOS/v4.2.12/overseas/sdks/MCSDKMaxAdapter-1307.0.0.zip",
+            checksum: "4d07c0fbc2968a89b989286815b1f5f949b57f64d419422c50f4f37c819f5748"
         )
     ]
 )
